@@ -1,0 +1,8 @@
+include ':app'
+rootProject.name = "My Application"
+include 'fbreader_extras'
+project(':fbreader_extras').projectDir = new File('fbreader/extras')
+include 'fbreader_styles'
+project(':fbreader_styles').projectDir = new File('fbreader/styles')
+include 'fbreader_text_extras'
+project(':fbreader_text_extras').projectDir = new File('fbreader/text_extras')
